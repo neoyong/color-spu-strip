@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="memstest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memstest.elf">
+				<Option output="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/memstest.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32G030xx"/>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add directory="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc"/>
+					<Add directory="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Device/ST/STM32G0xx/Include"/>
+					<Add directory="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 memstest.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memstest.elf/fast">
+				<Option output="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/memstest.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32G030xx"/>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add directory="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc"/>
+					<Add directory="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Device/ST/STM32G0xx/Include"/>
+					<Add directory="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 memstest.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc/dma.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc/gpio.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc/main.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc/spi.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc/stm32_assert.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc/stm32g0xx_hal_conf.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc/stm32g0xx_it.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc/tim.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/dma.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/gpio.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/main.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/spi.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/stm32g0xx_hal_msp.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/stm32g0xx_it.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/syscalls.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/sysmem.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/system_stm32g0xx.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/tim.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Startup/startup_stm32g030f6px.s">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Device/ST/STM32G0xx/LICENSE.txt">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/LICENSE.txt">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_spi.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_spi_ex.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/LICENSE.txt">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/STM32G030F6PX_FLASH.ld">
+			<Option target="memstest.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
