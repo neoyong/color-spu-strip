@@ -36,7 +36,7 @@
 <img src="demo.jpg" width=400><br>
 当将音源移动至灯条附近时，灯条亮起的长度会变化。当在灯条附近说话谈论声音较大时，灯条也会有响应。<br>
 视频演示1：https://www.bilibili.com/video/BV1Pd4y127or<br>
-视频演示2：审核中
+视频演示2：https://www.bilibili.com/video/BV1nV4y1G7yW
 - --
 
 ## 系统功能框架
