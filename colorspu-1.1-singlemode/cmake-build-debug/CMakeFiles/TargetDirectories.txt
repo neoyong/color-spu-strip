@@ -1,3 +1,0 @@
-/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/CMakeFiles/memstest.elf.dir
-/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
