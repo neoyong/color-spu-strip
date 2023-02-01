@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Startup/startup_stm32g030f6px.s
+/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Startup/startup_stm32g030f6px.s
 

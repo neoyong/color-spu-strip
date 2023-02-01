@@ -5,13 +5,13 @@
 # compile C with /usr/local/bin/arm-none-eabi-gcc
 ASM_DEFINES = -DDEBUG -DSTM32G030xx -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include
+ASM_INCLUDES = -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Inc -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Inc -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/CMSIS/Include
 
 ASM_FLAGS = -g -mcpu=cortex-m0 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DDEBUG -DSTM32G030xx -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER
 
-C_INCLUDES = -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include
+C_INCLUDES = -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Inc -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Inc -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/CMSIS/Include
 
 C_FLAGS = -g -mcpu=cortex-m0 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 

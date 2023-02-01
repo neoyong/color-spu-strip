@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "memstest.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-memstest.elf-Debug-242f3a46da5ee21d9ff9.json",
+					"jsonFile" : "target-memstest.elf-Debug-eac68e339abb92f22ef6.json",
 					"name" : "memstest.elf",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32",
-		"source" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode"
+		"build" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32",
+		"source" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0"
 	},
 	"version" : 
 	{

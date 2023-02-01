@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32"
+			"value" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -755,7 +755,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode"
+			"value" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32"
+			"value" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32"
 		},
 		{
 			"name" : "memstest_IS_TOP_LEVEL",
@@ -1287,7 +1287,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode"
+			"value" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0"
 		}
 	],
 	"kind" : "cache",

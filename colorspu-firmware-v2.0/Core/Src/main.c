@@ -60,7 +60,8 @@ void SystemClock_Config(void);
 /* USER CODE BEGIN 0 */
 int sys_state = 0;
 double color_speed=0.02;
-int brightness=60;
+double brightness=256;
+double brightness_dest=40;
 
 unsigned long long sleep_counter=0;
 unsigned long long key_counter=0;
@@ -81,12 +82,19 @@ int last_sys_state=0;
 
 
 #define KEY_PENDING_TIME 700
-#define AUTOSLEEP_TIME 2000
+#define AUTOSLEEP_TIME 2800
+#define AUTOSLEEP_THRESHOLD 4
+#define AUTOWAKEUP_THRESHOLD 11
 
 #define SYS_NORMAL_MODE_START 0
 #define SYS_DEFAULT_MODE 0
 #define MAX_SYS_STATE 3
 
+#define MODE_BUTTON_PIN GPIO_PIN_5
+#define COLOR_BUTTON_PIN GPIO_PIN_11
+#define BRIGHTNESS_BUTTON_PIN GPIO_PIN_7
+
+int key_pair=-1;
 void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin) {
     //Button Down
     if(sys_state<SYS_NORMAL_MODE_START){
@@ -95,6 +103,7 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin) {
         return;
     }else{
         key_pending=1;
+        key_pair=GPIO_Pin;
         key_counter=HAL_GetTick();
     }
 }
@@ -105,7 +114,12 @@ void HAL_GPIO_EXTI_Rising_Callback(uint16_t GPIO_Pin) {
 
     sleep_counter=0;
     if(key_pending==0)return;
-    if(GPIO_Pin==GPIO_PIN_5) {
+    if(key_pair!=GPIO_Pin){
+        key_pair=-1;
+        key_pending=0;
+        return;
+    }
+    if(GPIO_Pin==MODE_BUTTON_PIN) {
         //MODE
         if (sys_state >= SYS_NORMAL_MODE_START) {
             if (sys_state != MAX_SYS_STATE) {
@@ -114,15 +128,16 @@ void HAL_GPIO_EXTI_Rising_Callback(uint16_t GPIO_Pin) {
                 sys_state = SYS_DEFAULT_MODE;
             }
         }
-    }else if(GPIO_Pin==GPIO_PIN_7) {
+    }else if(GPIO_Pin==BRIGHTNESS_BUTTON_PIN) {
         //BRIGHTNESS
         if (sys_state >= SYS_NORMAL_MODE_START) {
-            brightness += 60;
-            if (brightness >= 200)brightness = 20;
+            if(brightness_dest<60)brightness_dest += 60;
+            else brightness_dest += 120;
+            if (brightness_dest >= 200)brightness_dest = 10;
         }
         //60 120 180
         //20 80 140 200
-    }else if(GPIO_Pin==GPIO_PIN_11) {
+    }else if(GPIO_Pin==COLOR_BUTTON_PIN) {
         //COLOR
         if (sys_state >= SYS_NORMAL_MODE_START) {
             color_speed += 0.1;
@@ -132,6 +147,7 @@ void HAL_GPIO_EXTI_Rising_Callback(uint16_t GPIO_Pin) {
         }
     }
     key_pending = 0;
+    key_pair=-1;
 }
 
 
@@ -215,8 +231,8 @@ void WS2812_Send(void) {
     for (int i = 0; i < MAX_LED; i++) {
         color = ((LED_Data[i][1] << 16) | (LED_Data[i][2] << 8) | (LED_Data[i][3]));
 
-        for (int i = 23; i >= 0; i--) {
-            if ((color >> i) & 1) {
+        for (int j = 23; j >= 0; j--) {
+            if ((color >> j) & 1) {
                 pwmData[indx] = 53;  // 2/3 of 20
             } else pwmData[indx] = 27;  // 1/3 of 20
 
@@ -388,10 +404,11 @@ int main(void) {
 
 
             if(sys_state==SYS_SOUND_PICKUP1){
-
+                if(brightness<brightness_dest)brightness+=0.6;
+                if(brightness>brightness_dest)brightness-=0.6;
 //// auto sleep if amp<4
                 struct AmpInfo amps=calculateAmp();
-                if(amps.max_amp<=4){
+                if(amps.max_amp<=AUTOSLEEP_THRESHOLD){
                     sleep_counter++;
                     if(sleep_counter>AUTOSLEEP_TIME){
                         sleep_counter=0;
@@ -399,6 +416,8 @@ int main(void) {
                         sys_state = SYS_AUTO_SLEEP;
                         continue;
                     }
+                }else{
+                    sleep_counter=0;
                 }
                 region0=MAX_LED/2-abs(amps.max_amp/2);
                 region1=MAX_LED/2+abs(amps.max_amp/2)+1;
@@ -424,7 +443,7 @@ int main(void) {
                                                     + abs(amps.amp5 / 8.0));
                 }
 
-                color_step = 0+color_start;
+                color_step = 15+color_start;
                 for (int i = MAX_LED/2; i < region1; i++) {
                     uint32_t color = huecolor(color_step);
                     float r_s = ((color >> 8) & 0xff) / brightness;
@@ -444,9 +463,11 @@ int main(void) {
 
             }
             else if(sys_state==SYS_SOUND_PICKUP2) {
+                if(brightness<brightness_dest)brightness+=0.6;
+                if(brightness>brightness_dest)brightness-=0.6;
 // auto sleep if amp<4
                 struct AmpInfo amps=calculateAmp();
-                if (abs(amps.max_amp) <= 4) {
+                if (abs(amps.max_amp) <= AUTOSLEEP_THRESHOLD) {
                     sleep_counter++;
                     if (sleep_counter > AUTOSLEEP_TIME) {
                         sleep_counter = 0;
@@ -456,7 +477,7 @@ int main(void) {
                     }
                 }
                 float color_start=(color_speed-0.02)*10*120;
-                float color_step = 0+color_start;
+                float color_step = 15+color_start;
                 for (int i = 0; i < abs(amps.max_amp); i++) {
                     uint32_t color = huecolor(color_step);
                     float r_s = ((color >> 8) & 0xff) / brightness;
@@ -475,26 +496,30 @@ int main(void) {
                 }
                 WS2812_Send();
             }else if(sys_state==SYS_GRADIENT1){
+                if(brightness<brightness_dest)brightness+=0.2;
+                if(brightness>brightness_dest)brightness-=0.2;
                 for (int i = 0; i < MAX_LED; i++) {
 
                     uint64_t color = huecolor(hue0);
-                    uint8_t r = ((((color) & 0xff) / brightness));
-                    uint8_t g = ((((color >> 8) & 0xff) / brightness));
-                    uint8_t b = ((((color >> 16) & 0xff) / brightness));
-                    Set_LED(i, r, g, b);
+                    float r_s = ((color >> 8) & 0xff) / brightness;
+                    float g_s = (color & 0xff) / brightness;
+                    float b_s = ((color >> 16) & 0xff) / brightness;
+                    Set_LED(i, (int) r_s, (int) g_s, (int) b_s);
                 }
                 hue0 += color_speed;
                 if (hue0 >= 360)hue0 = 0;
                 WS2812_Send();
             }else if(sys_state==SYS_GRADIENT2){
+                if(brightness<brightness_dest)brightness+=0.2;
+                if(brightness>brightness_dest)brightness-=0.2;
                 hue1 = hue0;
                 for (int i = 0; i < MAX_LED; i++) {
 
                     uint64_t color = huecolor(hue1);
-                    uint8_t r = ((((color) & 0xff) / brightness));
-                    uint8_t g = ((((color >> 8) & 0xff) / brightness));
-                    uint8_t b = ((((color >> 16) & 0xff) / brightness));
-                    Set_LED(i, r, g, b);
+                    float r_s = ((color >> 8) & 0xff) / brightness;
+                    float g_s = (color & 0xff) / brightness;
+                    float b_s = ((color >> 16) & 0xff) / brightness;
+                    Set_LED(i, (int) r_s, (int) g_s, (int) b_s);
                     hue1 += 7;
                     if (hue1 >= 360)hue1 = 0;
                 }
@@ -505,8 +530,8 @@ int main(void) {
                     struct AmpInfo amps=calculateAmp();
                     sysSleep();
                     // auto wakeup if amp>9
-                    if(amps.max_amp>9){
-                        sys_state = 0;
+                    if(amps.max_amp>AUTOWAKEUP_THRESHOLD){
+                        sys_state = last_sys_state;
                     }
                     continue;
             }

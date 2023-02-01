@@ -158,23 +158,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc"
+					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc"
+					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Device/ST/STM32G0xx/Include"
+					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include"
+					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -294,23 +294,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Inc"
+					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc"
+					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Device/ST/STM32G0xx/Include"
+					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/CMSIS/Include"
+					"path" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
@@ -335,7 +335,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/memstest.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/memstest.map",
 				"role" : "flags"
 			},
 			{
@@ -360,7 +360,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/STM32G030F6PX_FLASH.ld",
+				"fragment" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/STM32G030F6PX_FLASH.ld",
 				"role" : "flags"
 			}
 		],

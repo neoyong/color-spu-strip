@@ -1,5 +1,5 @@
 CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj: \
- /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/sysmem.c \
+ /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/sysmem.c \
  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/errno.h \
  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/errno.h \
  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \

@@ -53,10 +53,10 @@ RM = "/Users/jlywxy/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode
+CMAKE_SOURCE_DIR = /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32
+CMAKE_BINARY_DIR = /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32
 
 # Include any dependencies generated for this target.
 include CMakeFiles/memstest.elf.dir/depend.make
@@ -72,435 +72,435 @@ include CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
 CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/dma.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/dma.c
 
 CMakeFiles/memstest.elf.dir/Core/Src/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Core/Src/dma.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/dma.c > CMakeFiles/memstest.elf.dir/Core/Src/dma.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/dma.c > CMakeFiles/memstest.elf.dir/Core/Src/dma.c.i
 
 CMakeFiles/memstest.elf.dir/Core/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Core/Src/dma.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/dma.c -o CMakeFiles/memstest.elf.dir/Core/Src/dma.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/dma.c -o CMakeFiles/memstest.elf.dir/Core/Src/dma.c.s
 
 CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
 CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/gpio.c
 
 CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/gpio.c > CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/gpio.c > CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.i
 
 CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/gpio.c -o CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/gpio.c -o CMakeFiles/memstest.elf.dir/Core/Src/gpio.c.s
 
 CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
 CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/main.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/main.c
 
 CMakeFiles/memstest.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Core/Src/main.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/main.c > CMakeFiles/memstest.elf.dir/Core/Src/main.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/main.c > CMakeFiles/memstest.elf.dir/Core/Src/main.c.i
 
 CMakeFiles/memstest.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Core/Src/main.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/main.c -o CMakeFiles/memstest.elf.dir/Core/Src/main.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/main.c -o CMakeFiles/memstest.elf.dir/Core/Src/main.c.s
 
 CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
 CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/spi.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/spi.c
 
 CMakeFiles/memstest.elf.dir/Core/Src/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Core/Src/spi.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/spi.c > CMakeFiles/memstest.elf.dir/Core/Src/spi.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/spi.c > CMakeFiles/memstest.elf.dir/Core/Src/spi.c.i
 
 CMakeFiles/memstest.elf.dir/Core/Src/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Core/Src/spi.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/spi.c -o CMakeFiles/memstest.elf.dir/Core/Src/spi.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/spi.c -o CMakeFiles/memstest.elf.dir/Core/Src/spi.c.s
 
 CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj: ../Core/Src/stm32g0xx_hal_msp.c
 CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/stm32g0xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/stm32g0xx_hal_msp.c
 
 CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/stm32g0xx_hal_msp.c > CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/stm32g0xx_hal_msp.c > CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.i
 
 CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/stm32g0xx_hal_msp.c -o CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/stm32g0xx_hal_msp.c -o CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_hal_msp.c.s
 
 CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj: ../Core/Src/stm32g0xx_it.c
 CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/stm32g0xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/stm32g0xx_it.c
 
 CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/stm32g0xx_it.c > CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/stm32g0xx_it.c > CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.i
 
 CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/stm32g0xx_it.c -o CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/stm32g0xx_it.c -o CMakeFiles/memstest.elf.dir/Core/Src/stm32g0xx_it.c.s
 
 CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
 CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/syscalls.c
 
 CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/syscalls.c > CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/syscalls.c > CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.i
 
 CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/syscalls.c -o CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/syscalls.c -o CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.s
 
 CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
 CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/sysmem.c
 
 CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/sysmem.c > CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/sysmem.c > CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.i
 
 CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/sysmem.c -o CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/sysmem.c -o CMakeFiles/memstest.elf.dir/Core/Src/sysmem.c.s
 
 CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj: ../Core/Src/system_stm32g0xx.c
 CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/system_stm32g0xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/system_stm32g0xx.c
 
 CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/system_stm32g0xx.c > CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/system_stm32g0xx.c > CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.i
 
 CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/system_stm32g0xx.c -o CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/system_stm32g0xx.c -o CMakeFiles/memstest.elf.dir/Core/Src/system_stm32g0xx.c.s
 
 CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
 CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj.d -o CMakeFiles/memstest.elf.dir/Core/Src/tim.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/tim.c
 
 CMakeFiles/memstest.elf.dir/Core/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Core/Src/tim.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/tim.c > CMakeFiles/memstest.elf.dir/Core/Src/tim.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/tim.c > CMakeFiles/memstest.elf.dir/Core/Src/tim.c.i
 
 CMakeFiles/memstest.elf.dir/Core/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Core/Src/tim.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/tim.c -o CMakeFiles/memstest.elf.dir/Core/Src/tim.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/tim.c -o CMakeFiles/memstest.elf.dir/Core/Src/tim.c.s
 
 CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.obj: ../Core/Startup/startup_stm32g030f6px.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Startup/startup_stm32g030f6px.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Startup/startup_stm32g030f6px.s
 
 CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.i"
-	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Startup/startup_stm32g030f6px.s > CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.i
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Startup/startup_stm32g030f6px.s > CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.i
 
 CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.s"
-	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Startup/startup_stm32g030f6px.s -o CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.s
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Startup/startup_stm32g030f6px.s -o CMakeFiles/memstest.elf.dir/Core/Startup/startup_stm32g030f6px.s.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj: CMakeFiles/memstest.elf.dir/flags.make
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj: ../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj: CMakeFiles/memstest.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj -MF CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj.d -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj -c /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c > CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.i
 
 CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c -o CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.s
 
 # Object files for target memstest.elf
 memstest_elf_OBJECTS = \
@@ -572,12 +572,12 @@ memstest.elf: CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32
 memstest.elf: CMakeFiles/memstest.elf.dir/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c.obj
 memstest.elf: CMakeFiles/memstest.elf.dir/build.make
 memstest.elf: CMakeFiles/memstest.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C executable memstest.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C executable memstest.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/memstest.elf.dir/link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/memstest.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/memstest.bin"
-	arm-none-eabi-objcopy -Oihex /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/memstest.elf /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/memstest.hex
-	arm-none-eabi-objcopy -Obinary /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/memstest.elf /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/memstest.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/memstest.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/memstest.bin"
+	arm-none-eabi-objcopy -Oihex /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/memstest.elf /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/memstest.hex
+	arm-none-eabi-objcopy -Obinary /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/memstest.elf /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/memstest.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/memstest.elf.dir/build: memstest.elf
@@ -588,6 +588,6 @@ CMakeFiles/memstest.elf.dir/clean:
 .PHONY : CMakeFiles/memstest.elf.dir/clean
 
 CMakeFiles/memstest.elf.dir/depend:
-	cd /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32 /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32 /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/CMakeFiles/memstest.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0 /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0 /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32 /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32 /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/CMakeFiles/memstest.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/memstest.elf.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/memstest.elf.dir/Core/Src/syscalls.c.obj: \
- /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/Core/Src/syscalls.c \
+ /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/Core/Src/syscalls.c \
  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stat.h \
  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \

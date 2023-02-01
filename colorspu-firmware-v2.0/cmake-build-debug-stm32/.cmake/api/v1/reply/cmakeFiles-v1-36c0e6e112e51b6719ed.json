@@ -1147,8 +1147,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32",
-		"source" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode"
+		"build" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32",
+		"source" : "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0"
 	},
 	"version" : 
 	{

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode
+# Install script for directory: /Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-1.1-singlemode/cmake-build-debug-stm32/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jlywxy/project/hardware/color-spu-strip/colorspu-firmware-v2.0/cmake-build-debug-stm32/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
