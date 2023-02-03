@@ -11,7 +11,7 @@ Document Version: 2.1 (2023.2.1)<br>
 
 - --
 
-Current design: Hardware - v1.1r1, Software - v2.0r1.<br>
+Current design: v11.1.20.1 (Hardware - v1.1r1, Firmware - v2.0r1).<br>
 <img src="demo.jpg" width=400/>
 
 <b>The Circuit Schematics, PCB drawings with their PCB project(LCEDA), and software source codes are all open-sourced until now.</b>
@@ -49,10 +49,16 @@ Diode SMA                  1      -
 - --
 Note: 
 * SPH0641LM4H(Knowles) and SD18OB261-060(Goertek) are pin-to-pin compatible but not tested in this project.<br>
-* "-" means any brand equivalent.<br>
-## Product Specification
+* "-" means any component equivalent of brands.<br>
 
-<-- To Be Continued -->
+- --
+
+## User Manual
+
+Read the manual:<br>
+Simplified Chinese version: <a href="css-v11.1.20.1-v0.1-cn.pdf">css-v11.1.20.1-v0.1-cn.pdf</a><br>
+English version: <-- To Be Continued -->
+
 
 - --
 

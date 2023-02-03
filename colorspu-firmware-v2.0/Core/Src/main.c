@@ -58,7 +58,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-int sys_state = 0;
+
 double color_speed=0.02;
 double brightness=256;
 double brightness_dest=40;
@@ -67,8 +67,6 @@ unsigned long long sleep_counter=0;
 unsigned long long key_counter=0;
 
 int key_pending=0;
-int last_sys_state=0;
-
 
 #define MAX_LED 17
 #define PDM_SAMPLES 512
@@ -80,15 +78,17 @@ int last_sys_state=0;
 #define SYS_GRADIENT2 2
 #define SYS_GRADIENT1 3
 
-
-#define KEY_PENDING_TIME 700
-#define AUTOSLEEP_TIME 2800
-#define AUTOSLEEP_THRESHOLD 4
-#define AUTOWAKEUP_THRESHOLD 11
-
 #define SYS_NORMAL_MODE_START 0
 #define SYS_DEFAULT_MODE 0
 #define MAX_SYS_STATE 3
+
+int sys_state = 0;
+int last_sys_state=0;
+
+#define KEY_PENDING_TIME 700
+#define AUTOSLEEP_TIME 2800
+#define AUTOSLEEP_THRESHOLD 2
+#define AUTOWAKEUP_THRESHOLD 7
 
 #define MODE_BUTTON_PIN GPIO_PIN_5
 #define COLOR_BUTTON_PIN GPIO_PIN_11
